@@ -1,0 +1,69 @@
+.skills-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+  
+  .skill-title {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .skills-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre as habilidades */
+  }
+  
+  .skill-box {
+    
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  .skill-box.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
+  .icon-container {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .skill-icon {
+    color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .skill-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon-container:hover .skill-name {
+    opacity: 1;
+  }
+  
