@@ -21,13 +21,13 @@ const contatoOptions = [
   
   {
     title: 'LinkedIn',
-    description: 'Conecte-se conosco no LinkedIn.',
+    description: 'Conecte-se comigo no LinkedIn.',
     icon: <FaLinkedin size={40} />,
     link: 'https://www.linkedin.com/in/sidneysm',
   },
   {
     title: 'GitHub',
-    description: 'Confira nosso código no GitHub.',
+    description: 'Confira e me siga no GitHub.',
     icon: <FaGithub size={40} />,
     link: 'https://github.com/SidneySM1/',
   },
