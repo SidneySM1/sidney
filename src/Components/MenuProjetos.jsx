@@ -82,8 +82,8 @@ const MenuProjetos = () => {
     <h1 style={{ marginTop: '15px' }}><FontAwesomeIcon icon={faPuzzlePiece} color="white"/> Projetos</h1>
     <div className='projeto-container' style={{ marginTop: '50px',marginBottom: '100px' }}>
       <div className="projeto-images imgWrapper">
-        <img src="https://i.ibb.co/nMws5tm/projeto1.png" className="imgPC" alt="Visualização PC" />
-       <img src="././src/assets/projeto1mobile2.png" className="imgMobile" alt="Visualização Mobile" />
+        <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto1.png" className="imgPC" alt="Visualização PC" />
+       <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/Projeto1mobile2.png" className="imgMobile" alt="Visualização Mobile" />
       </div>
       <div className="projeto-details">
         <div className="projeto-info">
@@ -111,8 +111,8 @@ const MenuProjetos = () => {
 
     <div className="projeto-container">
       <div className="projeto-images imgWrapper">
-        <img src="https://gcdnb.pbrd.co/images/B5mOxqmbjjac.png" className="imgPC" alt="Visualização PC" />
-       <img src="././src/assets/projeto2mobile.png" className="imgMobile" alt="Visualização Mobile" />
+        <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto2.png" className="imgPC" alt="Visualização PC" />
+       <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto2mobile.png" className="imgMobile" alt="Visualização Mobile" />
       </div>
       <div className="projeto-details">
         <div className="projeto-info">

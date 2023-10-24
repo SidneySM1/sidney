@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const SobreMim = () => {
   const handleDownloadCurriculo = () => {
     // Substitua o URL com o link do seu currículo em PDF
-    const curriculoURL = './src/assets/Sidney-Back-end.pdf';
+    const curriculoURL = 'https://drive.google.com/file/d/13BiqD0EJXJYCbFfRphz6zQDyvW94IoaA/view?usp=sharing';
     window.open(curriculoURL, '_blank');
   };
 
@@ -74,14 +74,14 @@ const SobreMim = () => {
         <p>
         Olá! Me chamo Sidney, e sou um desenvolvedor back-end!<br></br>
           Apesar de conhecer bem o front, minha paixão por de fato, criar soluções tecnicas que ajudem outros dev's,
-          e minha base de estudos, me voltou para a area do back-end, trabalhando em projetos que envolvem. :)
+          e minha base de estudos, me voltou para a area do back-end. Gosto de tocar guitarra nas horas vagas(??). :)
         </p>
 
         <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button>
       </div>
       <img
-        src="./src/assets/sidney.jpg" // Substitua com o URL da sua imagem
-        alt="Sua Foto"
+        src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/sidney.jpg" // Substitua com o URL da sua imagem
+        alt="Sidney"
         className={isSmallScreen ? 'hideOnSmallScreen' : 'showOnLargeScreen'}
         style={imageStyle} // Estilo da imagem
       />
