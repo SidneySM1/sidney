@@ -42,7 +42,6 @@ const SobreMim = () => {
   const contentStyle = {
     flex: 1,
     textAlign: 'justify', // Alinhamento justificado ao conteúdo
-    marginRight: '20px'
   };
 
   const buttonStyle = {
@@ -75,11 +74,8 @@ const SobreMim = () => {
 
         <p>
           Apesar de conhecer bem o front, minha paixão por de fato, criar soluções tecnicas que ajudem outros dev's,
-          e minha base de estudos, me voltou para 
-          a area do back-end, trabalhando em projetos que envolvem 
-          desenvolvimento de servidores, gerenciamento de bancos de dados e otimização de desempenho. 
-          Minha paixão por programação me levou a explorar diversas linguagens e tecnologias, 
-          mas o meu foto atual é total no Node JS. :)
+          e minha base de estudos, me voltou para a area do back-end, trabalhando em projetos que envolvem 
+          desenvolvimento de servidores, bancos de dados e otimização de desempenho. :)
         </p>
 
         <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button>
