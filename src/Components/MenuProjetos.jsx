@@ -96,7 +96,7 @@ const MenuProjetos = () => {
            
         </div>
         <p>
-           <a href="https://gcdnb.pbrd.co/images/B5mOxqmbjjac.png" target="_blank" rel="noopener noreferrer">
+           <a href="http://idesqplus.com/" target="_blank" rel="noopener noreferrer">
           <button className="buttonD"><FontAwesomeIcon icon={faPlay} /> Ver Deploy</button> 
           </a> <small className="buttonD">login: admin, senha 123.</small>
         </p>
@@ -111,7 +111,7 @@ const MenuProjetos = () => {
 
     <div className="projeto-container">
       <div className="projeto-images imgWrapper">
-        <img src="././src/assets/projeto2.png" className="imgPC" alt="Visualização PC" />
+        <img src="https://gcdnb.pbrd.co/images/B5mOxqmbjjac.png" className="imgPC" alt="Visualização PC" />
        <img src="././src/assets/projeto2mobile.png" className="imgMobile" alt="Visualização Mobile" />
       </div>
       <div className="projeto-details">
