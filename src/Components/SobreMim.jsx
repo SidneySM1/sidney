@@ -57,7 +57,8 @@ const SobreMim = () => {
     width: '200px',
     borderRadius: '50%',
     marginBottom: '20px',
-    float: 'right', // Define a imagem para o lado direito
+    float: 'right',
+    marginLeft: '15px',
   };
 
   const titleStyle = {
@@ -68,14 +69,12 @@ const SobreMim = () => {
     <section style={sectionStyle}>
       <div style={contentStyle}>
       <h2 style={titleStyle}>Um pouco sobre...</h2>
-        <p>
-          Olá! Me chamo Sidney, e sou um desenvolvedor back-end!
-        </p>
+        
 
         <p>
+        Olá! Me chamo Sidney, e sou um desenvolvedor back-end!<br></br>
           Apesar de conhecer bem o front, minha paixão por de fato, criar soluções tecnicas que ajudem outros dev's,
-          e minha base de estudos, me voltou para a area do back-end, trabalhando em projetos que envolvem 
-          desenvolvimento de servidores, bancos de dados e otimização de desempenho. :)
+          e minha base de estudos, me voltou para a area do back-end, trabalhando em projetos que envolvem. :)
         </p>
 
         <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button>
