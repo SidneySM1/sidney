@@ -72,9 +72,9 @@ const SobreMim = () => {
         
 
         <p>
-        Olá! Chamo-me Sidney Mota, desenvolvedor back-end! <br></br>
-        Mesmo com um bom conhecimento de front-end, criar soluções técnicas que ajudem outros programadores me fez voltar à área de back-end, 
-        além da minha base de estudos. Gosto de tocar guitarra nas horas vagas(??).   :)
+        Olá! Me chamo Sidney, e sou um desenvolvedor back-end!<br></br>
+          Apesar de conhecer bem o front, minha paixão por de fato, criar soluções tecnicas que ajudem outros dev's,
+          e minha base de estudos, me voltou para a area do back-end. Gosto de tocar guitarra nas horas vagas(??). :)
         </p>
 
         <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button>
