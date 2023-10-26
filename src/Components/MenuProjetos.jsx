@@ -90,7 +90,7 @@ const MenuProjetos = () => {
           <h3>IDESQ+</h3>
            <p style={{ textAlign: "left", marginLeft:"15px", marginRight:"10px" }}>Sistema web desenvolvido com PHP 7.4 em todo back-end, MySQL 8, Bootstrap 4 em todo front-end.
            Capacidade de prover video aulas, materiais, atividades e testes.<br></br> Video aulas por upload ou index
-           de link do youtube, criação de manuseio de arquivos com PHP, relacionamento de diretio com tabelas SQL,
+           de link do youtube, criação de manuseio de arquivos com PHP, relacionamento de diretorio com tabelas SQL,
            login autenticado por SQL, com logs e logout por inatividade.</p>
            <LinguagemBox linguagem={faPhp} cor="#8892BF"/><LinguagemBox linguagem={faBootstrap} cor="#8100CF"/><LinguagemBox linguagem={faDatabase} cor="#00758F"/>
            
