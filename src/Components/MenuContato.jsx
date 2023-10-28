@@ -169,7 +169,7 @@ const MenuContato = () => {
             `}
           />
           <input
-            type="email"
+            type="tel"
             placeholder="(XX)00000-0000"
             css={css`
               padding: 10px;
