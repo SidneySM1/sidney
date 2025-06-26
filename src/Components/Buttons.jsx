@@ -88,7 +88,7 @@ const Buttons = ({ setTudo, setSobre, setProjetos, setContato }) => {
           setContato(false);
         }}
       >
-        <span>Projetos</span>
+        <span>Portfólio</span>
       </button>
 
 
