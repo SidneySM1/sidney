@@ -12,10 +12,10 @@ import {
 	faReact,
 	faGithub,
 	faPython,
+	faGitlab
 } from "@fortawesome/free-brands-svg-icons";
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons'; // Importe o ícone do Bootstrap
-import { faCode, faDatabase, faLink, faPuzzlePiece, faPlay } from "@fortawesome/free-solid-svg-icons";
-
+import { faCode, faCube, faDatabase, faLink, faPuzzlePiece, faPlay } from "@fortawesome/free-solid-svg-icons";
 
 import "./Projetos.css";
 
@@ -85,24 +85,39 @@ const MenuProjetos = () => {
 
 			<div className='projeto-container' style={{ marginTop: '50px', marginBottom: '100px' }}>
 				<div className="projeto-images imgWrapper">
-					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto3.png" className="imgPC" alt="Visualização PC" />
+					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/refs/heads/main/src/assets/projeto4.png" className="imgPC" alt="Visualização PC" />
+					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/refs/heads/main/src/assets/projeto4mobile.png" className="imgMobile" alt="Visualização Mobile" />
+				</div>
+				<div className="projeto-details">
+					<div className="projeto-info">
+						<h3>CSH Chauffeur & Premium Taxi Services</h3>
+						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>
+							Sistema Web, PWA e APP para serviço de taxi internacional, desenvolvido em Adianti Framework com diversas integrações e incluindo sua propria biblioteca de componentes.
+							<br></br>Possuindo integrações com o Google Maps, Places, Geolocation e Geocoding, além de um sistema de zonas unico, que permite a criação de zonas de atendimento, restrições e descontos.
+							<br></br>O sistema é capaz de calcular o valor da corrida, gerar rota, gerar faturas, serviço completo de e-mail e templates personalizados pelo usuario, além de envios agendados.
+						</p>
+						<LinguagemBox linguagem={faCube} cor="#58CC4D" /><LinguagemBox linguagem={faPhp} cor="#8892BF" /><LinguagemBox linguagem={faJs} cor="#F0DB4F" /><LinguagemBox linguagem={faGitlab} cor="#FCA121" />
+
+					</div>
+				</div>
+			</div>
+
+			<div className='projeto-container' style={{ marginTop: '50px', marginBottom: '100px' }}>
+				<div className="projeto-images imgWrapper">
+					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/refs/heads/main/src/assets/projeto3.png" className="imgPC" alt="Visualização PC" />
 					{/* <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/Projeto1mobile2.png" className="imgMobile" alt="Visualização Mobile" /> */}
 				</div>
 				<div className="projeto-details">
 					<div className="projeto-info">
 						<h3>Canal Dark com IA generativa</h3>
 						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>
-							Automação contruida com Python (google-genai) para gerar a imagem, video, dublagem e até legendas utilizando IA (Gemini).
+							Automação construida com Python (google-genai) para gerar a imagem, video, dublagem e até legendas utilizando IA (Gemini).
 							<br></br>Sendo possivel agentar, definir tags e temas, além de publicar diretamente no YouTube, gerando videos a partir de um unico prompt.
+							<br></br>Integrações: <strong>gemini-2.5-flash-preview-tts, gemini imagen-3.0-generate-002, veo3, google-genai, google-tts</strong>.
 						</p>
-						<LinguagemBox linguagem={faPython} cor="#8892BF" />
+						<LinguagemBox linguagem={faPython} cor="#8892BF" /> <LinguagemBox linguagem={faGithub} cor="#525252" />
 
 					</div>
-					<p>
-						<a href="http://idesqplus.com/" target="_blank" rel="noopener noreferrer">
-							<button className="buttonD"><FontAwesomeIcon icon={faPlay} /> Ver Deploy</button>
-						</a>
-					</p>
 				</div>
 			</div>
 
@@ -114,12 +129,10 @@ const MenuProjetos = () => {
 				<div className="projeto-details">
 					<div className="projeto-info">
 						<h3>IDESQ+</h3>
-						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>Sistema web desenvolvido com PHP 7.4 em todo back-end, MySQL 8, Bootstrap 4 em todo front-end.
+						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>Sistema web desenvolvido com framework PHP proprio baseado em MVC, Bootstrap 4 em todo front-end.
 							Capacidade de prover video aulas, materiais, atividades e testes.<br></br> Video aulas por upload ou index
-							de link do youtube, criação de manuseio de arquivos com PHP, relacionamento de diretorio com tabelas SQL,
-							login autenticado por SQL, com logs e logout por inatividade.</p>
+							de link do youtube, sistema de login e autenticação com google auth, logs e logout por inatividade.</p>
 						<LinguagemBox linguagem={faPhp} cor="#8892BF" /><LinguagemBox linguagem={faBootstrap} cor="#8100CF" /><LinguagemBox linguagem={faDatabase} cor="#00758F" />
-
 					</div>
 					<p>
 						<a href="http://idesqplus.com/" target="_blank" rel="noopener noreferrer">
@@ -139,18 +152,15 @@ const MenuProjetos = () => {
 				<div className="projeto-details">
 					<div className="projeto-info">
 						<h3>The Movie Now</h3>
-						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>Site com intuito de interagir a API TMDB, principalmente com JavaScript, e PHP 8 para SQL query, Bootstrap 5 para navbar e grid's.
-							JavaScript interage com a API atravez de XMLHttpRequest, convertendo o retorno da API em Json e interagindo com o objeto para dar um retono em SQL já aplicando classes bootstrap.
+						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>Site com intuito de interagir a API TMDB, principalmente com React.
+							interação com a API TMDB, convertendo o retorno dinamico em cards pesquisáveis.
 						</p>
-						<LinguagemBox linguagem={faJs} cor="#F0DB4F" /><LinguagemBox linguagem={faBootstrap} cor="#8100CF" /><LinguagemBox linguagem={faPhp} cor="#8892BF" /><LinguagemBox linguagem={faDatabase} cor="#00758F" />
+						<LinguagemBox linguagem={faJs} cor="#F0DB4F" /><LinguagemBox linguagem={faReact} cor="#61DAFB" /><LinguagemBox linguagem={faPhp} cor="#8892BF" />
 
 					</div>
 					<p>
 						<a href="http://themovienow.site/" target="_blank" rel="noopener noreferrer">
 							<button className="buttonD" style={{ marginRight: '5px' }}><FontAwesomeIcon icon={faPlay} /> Ver Deploy</button>
-						</a>
-						<a href="https://github.com/SidneySM1/bootstrap_projeto" target="_blank" rel="noopener noreferrer">
-							<button className="buttonD"><FontAwesomeIcon icon={faGithub} /> GitHub</button>
 						</a>
 					</p>
 				</div>
