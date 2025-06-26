@@ -137,7 +137,8 @@ const MenuProjetos = () => {
 					<p>
 						<a href="http://idesqplus.com/" target="_blank" rel="noopener noreferrer">
 							<button className="buttonD"><FontAwesomeIcon icon={faPlay} /> Ver Deploy</button>
-						</a> <small className="buttonD">login: admin, senha 123.</small>
+						</a>
+						{/* <small className="buttonD">login: admin, senha 123.</small> */}
 					</p>
 				</div>
 			</div>
