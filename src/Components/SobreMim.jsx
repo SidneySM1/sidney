@@ -72,12 +72,10 @@ const SobreMim = () => {
         
 
         <p>
-        Olá! Chamo-me Sidney Mota, desenvolvedor back-end! <br></br>
-        Mesmo com um bom conhecimento de front-end, criar soluções técnicas que ajudem outros programadores me fez voltar à área de back-end, 
-        além da minha base de estudos. Gosto de tocar guitarra nas horas vagas(??).   :)
+            Sou Sidney, <strong>desenvolvedor back-end</strong> e <strong>Full-stack</strong>, ampla experiência no Framework Brasileiro: <strong>Adianti Framework©</strong> assim como: <strong>Laravel©</strong> e <strong>Node</strong>. Minha experiência inclui o desenvolvimento de <strong>bibliotecas e componentes customizados</strong>, com sólidos conhecimentos em <strong>DevOps</strong> (Git, Docker) e experiência também com <strong>React</strong> e <strong>React Native</strong> no front, Automações Web e IA generativa com <strong>Python</strong>, Playwright e Google-genai.
         </p>
 
-        <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button>
+        {/* <button style={buttonStyle} className="buttonD" onClick={handleDownloadCurriculo}>Baixar Currículo</button> */}
       </div>
       <img
         src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/sidney.jpg" // Substitua com o URL da sua imagem

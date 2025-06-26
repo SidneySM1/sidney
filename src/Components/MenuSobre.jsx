@@ -5,21 +5,32 @@ import {
   faNode,
   faJs,
   faReact,
-  faBootstrap,
-  faGithub
+  faGithub,
+  faGitlab,
+  faDocker,
+  faLaravel,
+  faPython
 } from "@fortawesome/free-brands-svg-icons";
 import { faCode,faDatabase } from "@fortawesome/free-solid-svg-icons";
+// inporte o fas fa-cube 
+import { faCube } from "@fortawesome/free-solid-svg-icons";
 
 import "./Habilidades.css";
 
+// Adianti = fas fa-cube
 const skills = [
-  { icon: faPhp, color: "#8892BF", name: "PHP" },
+  // { icon: faPhp, color: "#8892BF", name: "PHP" },
+  { icon: faCube, color: "#58CC4D", name: "Adianti" },
+  // { icon: faJs, color: "#F0DB4F", name: "JavaScript" },
   { icon: faNode, color: "#8CC84B", name: "Node.js" },
-  { icon: faJs, color: "#F0DB4F", name: "JavaScript" },
   { icon: faReact, color: "#61DAFB", name: "React" },
+  // { icon: faReact, color: "#06bcee", name: "React Native"},
+  { icon: faLaravel, color: "#FF2D20", name: "Laravel" },
   { icon: faDatabase, color: "#00758F", name: "MySQL" },
-  { icon: faBootstrap, color: "#8100CF", name: "Bootstrap" },
-  { icon: faGithub, color: "#525252", name: "Git" }
+  { icon: faDocker, color: "#2496ED", name: "Docker" },
+  { icon: faGithub, color: "#525252", name: "GitHub"},
+  { icon: faGitlab, color: "#FCA121", name: "GitLab"},
+  { icon: faPython, color: "#3776AB", name: "Python" }
 ];
 
 
@@ -44,7 +55,7 @@ const MenuSobre = () => {
     <div className="skills-page-container">
       <h1 className="skill-title">
       <FontAwesomeIcon icon={faCode} style={{ marginRight: "10px" }} />
-      Habilidades
+      Stack
     </h1>
       <div className="skills-page">
       {renderedSkills.map((skill, index) => (
