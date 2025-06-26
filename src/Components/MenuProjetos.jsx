@@ -10,7 +10,8 @@ import {
 	faNode,
 	faJs,
 	faReact,
-	faGithub
+	faGithub,
+	faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons'; // Importe o ícone do Bootstrap
 import { faCode, faDatabase, faLink, faPuzzlePiece, faPlay } from "@fortawesome/free-solid-svg-icons";
@@ -81,6 +82,30 @@ const MenuProjetos = () => {
 		<div className="projetos">
 
 			<h1 style={{ marginTop: '15px' }}><FontAwesomeIcon icon={faPuzzlePiece} color="white" /> Portfólio</h1>
+
+			<div className='projeto-container' style={{ marginTop: '50px', marginBottom: '100px' }}>
+				<div className="projeto-images imgWrapper">
+					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto3.png" className="imgPC" alt="Visualização PC" />
+					{/* <img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/Projeto1mobile2.png" className="imgMobile" alt="Visualização Mobile" /> */}
+				</div>
+				<div className="projeto-details">
+					<div className="projeto-info">
+						<h3>Canal Dark com IA generativa</h3>
+						<p style={{ textAlign: "left", marginLeft: "15px", marginRight: "10px" }}>
+							Automação contruida com Python (google-genai) para gerar a imagem, video, dublagem e até legendas utilizando IA (Gemini).
+							<br></br>Sendo possivel agentar, definir tags e temas, além de publicar diretamente no YouTube, gerando videos a partir de um unico prompt.
+						</p>
+						<LinguagemBox linguagem={faPython} cor="#8892BF" />
+
+					</div>
+					<p>
+						<a href="http://idesqplus.com/" target="_blank" rel="noopener noreferrer">
+							<button className="buttonD"><FontAwesomeIcon icon={faPlay} /> Ver Deploy</button>
+						</a>
+					</p>
+				</div>
+			</div>
+
 			<div className='projeto-container' style={{ marginTop: '50px', marginBottom: '100px' }}>
 				<div className="projeto-images imgWrapper">
 					<img src="https://raw.githubusercontent.com/SidneySM1/sidney/main/src/assets/projeto1.png" className="imgPC" alt="Visualização PC" />
