@@ -46,9 +46,9 @@ const Footer = () => {
         }
       `}
     >
-      <h3 className="logo">&copy; 2023 Sidney Mota.</h3>
+      <h3 className="logo">&copy; 2025 Sidney Mota.</h3>
       <div className="FooterButtons">
-        www.sidneym.dev
+        www.sidneymota.dev
       </div>
       <h3 className="dwu">Back-end dev.</h3>
     </div>

@@ -77,7 +77,7 @@ const Buttons = ({ setTudo, setSobre, setProjetos, setContato }) => {
           setContato(false);
         }}
       >
-        <span>Habilidades</span>
+        <span>Stack</span>
       </button>
 
       <button
